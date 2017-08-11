@@ -1,0 +1,19 @@
+{
+  "name": "fresh-site",
+  "version": "1.0.0",
+  "description": "Site for every term psu.gd/fresh site",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/thomhines/Fresh-Site.git"
+  },
+  "author": "Thom Hines and lovely students",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/thomhines/Fresh-Site/issues"
+  },
+  "homepage": "https://github.com/thomhines/Fresh-Site#readme"
+}
