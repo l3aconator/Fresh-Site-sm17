@@ -1,13 +1,13 @@
 /* Set all parents to full height */
-html, body, 
+html, body,
 .container,
 .cbp-fbscroller,
-.cbp-fbscroller section { 
-	height: 100%; 
+.cbp-fbscroller section {
+	height: 100%;
 }
 
 
-/* The nav is fixed on the right side  and we center it by translating it 50% 
+/* The nav is fixed on the right side  and we center it by translating it 50%
 (we don't know it's height so we can't use the negative margin trick) */
 .cbp-fbscroller > nav {
 	position: fixed;
@@ -188,33 +188,33 @@ html, body,
 
 /*TABLET VERTICAL*/
 @media screen and (max-width: 945px) {
-		
+
 	}
 
 /*PHONE HORIZONTAL*/
 @media screen and (max-width: 660px) {
 	#fbsection1{
 		border: 8px solid #55e0ad;
-		border-bottom: 0px;		
+		border-bottom: 0px;
 	}
-	
+
 	#fbsection2{
 		border: 8px solid #55e0ad;
-		border-bottom: 0px;			
+		border-bottom: 0px;
 	}
-	
+
 	#fbsection3{
 		border: 8px solid #55e0ad;
-		border-bottom: 0px;			
+		border-bottom: 0px;
 	}
-	
+
 	#fbsection4{
 		border: 8px solid #55e0ad;
-		border-bottom: 0px;			
+		border-bottom: 0px;
 	}
-	
+
 	#fbsection5{
-		border: 8px solid #55e0ad;		
+		border: 8px solid #55e0ad;
 	}
 }
 
@@ -225,5 +225,5 @@ html, body,
 
 /* SUPER SKINNY DEVICE? */
 @media screen and (max-width: 300px) {
-	
-	}}
+
+	}

@@ -6,13 +6,12 @@
 		<?php include 'header.php' ?>
 	</head>
 	<body class="grid wfull biobg">
-				<!-- Nav Slides -->
+		<!-- Nav Slides -->
 			<!-- Class "cbp-spmenu-open" gets applied to menu -->
 		<?php include 'sidebar-location.php' ?>
 		<?php include 'sidebar-grads.php' ?>
 
 		<div class="row topbar">
-			
 			<div class="c2">
 
 				<a href="/fresh/"><img class="logobar" src="img/images/Fresh_Logo_Small.png" alt="Fresh" /></a>
@@ -23,9 +22,13 @@
 		<div class="row biosection">
 
 		<?php
-		
+
 		$name = $_GET["name"];
-			if ( $name && file_exists('students/sp17/'.$_GET["name"]) ) {
+			if ( $name && file_exists('students/sm17/'.$_GET["name"]) ) {
+				// Include the correct index file
+				include 'students/sp17/'.$name . '/index.php';
+				}
+			else if ( $name && file_exists('students/sp17/'.$_GET["name"]) ) {
 				// Include the correct index file
 				include 'students/sp17/'.$name . '/index.php';
 				}
@@ -64,8 +67,6 @@
 				// Include the correct index file
 				include 'students/summer14/'.$name . '/index.php';
 				}
-				
-
 			else if ( $name && file_exists('students/fall13/'.$_GET["name"]) ) {
 				// Include the correct index file
 				include 'students/fall13/'.$name . '/index.php';

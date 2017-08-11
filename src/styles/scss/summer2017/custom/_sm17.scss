@@ -1,42 +1,3 @@
-/* ==========================================================================
-   CSS Resets
-   ========================================================================== */
-/* Eric Meyer's Reset CSS v2.0 - http://cssreset.com */
-html, body, div, span, applet, object, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
-  font-size: 100%;
-  font: inherit;
-  vertical-align: middle;
-  margin: 0;
-  padding: 0; }
-
-article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
-  display: block; }
-
-ol, ul {
-  list-style: none; }
-
-blockquote, q {
-  quotes: none; }
-
-blockquote:before, blockquote:after, q:before, q:after {
-  content: none; }
-
-table {
-  border-collapse: collapse;
-  border-spacing: 0; }
-
-/* General Styles */
-*, *:after, *:before {
-  -webkit-box-sizing: border-box;
-  -moz-box-sizing: border-box;
-  box-sizing: border-box; }
-
-body, html {
-    font-size: 100%;
-    padding: 0;
-    margin: 0;
-}
-
 /* Clearfix hack by Nicolas Gallagher: http://nicolasgallagher.com/micro-clearfix-hack/ */
 .clearfix:before, .clearfix:after {
   content: " ";
@@ -91,13 +52,13 @@ h1 {
 
 h2 {
   font-weight: 700;
-  
+
   line-height: 1.5em;
   letter-spacing: 1px;
   font-size: 1.1em; }
 
 p {
-    font-family: 'franklin_gothic_fsbook', Helvetica, sans-serif; 
+    font-family: 'franklin_gothic_fsbook', Helvetica, sans-serif;
     font-size: 1.1em;
     line-height: 1.5em;
     letter-spacing: .03em;
@@ -111,7 +72,7 @@ a {
   text-decoration: none; }
 
 p a:hover {
-  color: #151515; 
+  color: #151515;
   border-bottom: 4px solid #244289; }
 
 p a {
@@ -144,13 +105,13 @@ hr {
 .statement h1 {
     color: #151515;
     padding-bottom: 40px;
-    border-bottom: 2px solid #ffe746; 
+    border-bottom: 2px solid #ffe746;
     margin-bottom: 50px;
 }
 
 .statement p {
     color: #151515;
-    padding: 15px 30px; 
+    padding: 15px 30px;
     line-height: 28px;
     text-align: center;
     max-width: 100%;
@@ -284,7 +245,7 @@ hr {
   padding: 2em 4em;
   margin: 0 auto;
   position: relative;
-  height: 100%; 
+  height: 100%;
   background-color: rgb(250,250,255);}
 
 /*
@@ -305,17 +266,17 @@ hr {
   float: left;
   display: inline-block;
   margin: 0px 0px 0 0;
-  line-height: 2em; 
+  line-height: 2em;
   color: rgb(25,30,100);
   }
-  
+
 .revlogo {
   z-index: 1004;
   display: block;
   width: 70%;
   margin: 0 auto 40px;
   border: none; }
-  
+
 .revinfo{
   float:right;
   display:inline;
@@ -351,7 +312,7 @@ hr {
   text-align: center;
   font-size: 1em;
   font-weight: 350;
-  color: black; 
+  color: black;
   display:inline-block;
   position:relative;}
 
@@ -360,9 +321,9 @@ hr {
   text-align: left;
   font-size: 1em;
   font-weight: 350;
-  color: black; 
+  color: black;
   display:inline-block;
-  position:relative;}
+  position:relative;
 }
 
 .eventData p a {
@@ -460,29 +421,11 @@ hr {
   display: block;
   border: none;
   margin: 0px auto;}
-/*.profile_pic {
-  position: relative;
-  display: inline-block;
-  width: 45%;
-  margin: 10px auto 0 75px; }
-/*
-  -webkit-border-radius: 99em;
-  -moz-border-radius: 99em;
-  border-radius: 99em;
-*/
-  /* border: 12px solid white; */
-/*
-  overflow: hidden;
-  float: left;
-  -moz-transition: all 0.14s ease 0s;
-  -webkit-transition: all 0.14s ease 0s;
-  -o-transition: all 0.14s ease 0s; }
-*/
 
 .profilescroll {
   position: absolute;
   top: 0;
-  bottom: 0;	
+  bottom: 0;
   width: 100%;
   padding: 2em 4em;
   overflow-y: scroll;
@@ -610,7 +553,7 @@ hr {
   margin: 0;
   padding: 0;
   width: 100%;
-  height: 100%; 
+  height: 100%;
   cursor: pointer;
   list-style: none;
   position: relative;
@@ -630,7 +573,7 @@ hr {
 .photoGrid li:hover {
   cursor: pointer;
   transition: 0.5s; }
-  
+
 .photoGrid li:hover img {
     cursor: pointer;
     opacity: 0.65;
@@ -651,16 +594,6 @@ hr {
     cursor: pointer;
     border: 8px solid #ffe746;
     border-color: #ffe746; }
-
-/*
-  @media (max-width: 768px) {
-    .mobileColor .photo .color {
-      filter: grayscale(0) !important;
-      -webkit-filter: grayscale(0) !important;
-      -moz-filter: grayscale(0) !important;
-      filter: url("data:image/+xml;utf8,< xmlns='http://www.w3.org/2000/'><filter id='grayscale'><feColorMatrix type='matrix' values='1 0 0 0 0, 0 1 0 0 0, 0 0 1 0 0, 0 0 0 1 0'/></filter></>#grayscale") !important; }
-    }
-  }*/
 
 .photoGrid li a div {
   width: 100%;
@@ -684,7 +617,7 @@ hr {
 .photoGrid li a:hover div {
   bottom: 0;
   cursor: pointer;
-  transition: all .3s; 
+  transition: all .3s;
 }
 
 .photoGrid li a div h3 {
@@ -693,19 +626,15 @@ hr {
   text-transform: uppercase;
   font-size: 1.6em;
   letter-spacing: .1em;
-  padding-top: 10px; 
+  padding-top: 10px;
 }
-
-/*.photoGrid img {
-  max-height: 100%;
-  width: 100%; }*/
 
 .photoGrid .photo {
   width: 100% !important;
   -webkit-transition: all 1s ease;
   -moz-transition: all 1s ease;
   -o-transition: all 1s ease;
-  transition: all 1s ease; 
+  transition: all 1s ease;
 }
 
 .color {
@@ -718,17 +647,14 @@ hr {
   margin: 16px auto;
 
   display: block;
-  border: 0px; 
+  border: 0px;
   height: 40px;}
 
 /* PROFILE PAGES */
 .biobg {
   /* margin-top: -38px; */
-  background-color: rgb(255,255,255); }
-
-bio-pic img (
-    object-fit: cover;
-)
+  background-color: rgb(255,255,255);
+}
 
 .topbar {
   background-color: rgb(255,255,255);
@@ -738,7 +664,7 @@ bio-pic img (
   height: 60px;
   padding-top: 60px;
   margin-left: 15px; }
-  
+
 .topbar_archive {
   /* background-color: black; */
   padding: 55px 0;
@@ -781,7 +707,7 @@ font-family: 'franklin_gothic_fsbook', Helvetica, sans-serif;
   color: #ec414e;
   font-size: 32px;
 }
-  
+
 .bio h1 span {
   display: block;
   font-weight: 100; }
@@ -797,7 +723,7 @@ font-family: 'franklin_gothic_fsbook', Helvetica, sans-serif;
 
 .logobar {
   margin: 0 auto;
-  min-width: 75px; 
+  min-width: 75px;
   max-width: 85px;
 }
 
@@ -813,7 +739,7 @@ font-family: 'franklin_gothic_fsbook', Helvetica, sans-serif;
 
 .bio_pic img {
   width: 100%;
-  height: 100%; 
+  height: 100%;
   border-radius: 20px; }
 
 .bio_pic {
@@ -855,7 +781,7 @@ p.one-liners {
     line-height: 1.8em;
     padding-top: 35px;
     text-align: left;
-    font-family: 'franklin_gothic_fsbook_italic', Helvetica, sans-serif; 
+    font-family: 'franklin_gothic_fsbook_italic', Helvetica, sans-serif;
 }
 
 .artwork {
@@ -881,7 +807,7 @@ p.one-liners {
   color: #302c2b; }
 
 .footerBand p a {
-  color: blue; 
+  color: blue;
   text-decoration: none;
 }
 
@@ -906,7 +832,7 @@ p.one-liners {
   color: #302c2b; }
 
 .footer a {
-  color: #ffda33:
+  color: #ffda33;
   text-decoration: none;
 }
 
@@ -919,7 +845,7 @@ p.one-liners {
 .footerLogo {
   /*padding-right: -50%;*/
   padding-top: 40px;
-  padding-bottom: 40px; 
+  padding-bottom: 40px;
 }
 
 .footerLogo img {
@@ -1070,7 +996,7 @@ p.credits {
 
 .infofoot {
   display: none; }
-  
+
 /* General styles for all menus */
 .cbp-spmenu {
     position: fixed;
@@ -1106,11 +1032,11 @@ p.credits {
   /*text-align: left;*/
   font-size: 1em;
   font-weight: 350;
-  color: black; 
+  color: black;
   display:inline-block;
   position:relative;
 }
-  
+
 .archive_btn {
     width: 220px;
     color: white;
@@ -1127,7 +1053,6 @@ p.credits {
     -moz-transition: all 0.14s ease 0s;
     -webkit-transition: all 0.14s ease 0s;
     -o-transition: all 0.14s ease 0s; }
-}
 
 .archive_btn a {
   text-decoration: none;
@@ -1144,7 +1069,7 @@ p.credits {
   font-size: 1em;
   font-weight: 110;
   font-style: none;
-  color: black; 
+  color: black;
 }
 
 /* Set all parents to full height */
@@ -1155,7 +1080,7 @@ html, body,
   /*height: 100%; */
 }
 
-/* The nav is fixed on the right side  and we center it by translating it 50% 
+/* The nav is fixed on the right side  and we center it by translating it 50%
 (we don't know it's height so we can't use the negative margin trick) */
 .cbp-fbscroller > nav {
   /*
@@ -1221,7 +1146,7 @@ html, body,
   width: 66%;
   height: 100%;
   top: 0;
-  z-index: 1000; 
+  z-index: 1000;
 }
 
 .cbp-spmenu-horizontal {
@@ -1321,25 +1246,25 @@ html, body,
   transition: all 100s ease !important;
   transform: rotate(0deg); }
   .Animate1:hover, .Animate2:hover, .Animate3:hover {
-    transition: all 5s ease !important; 
+    transition: all 5s ease !important;
   }
 
 .Animate1 {
   -webkit-animation: spin 32s linear infinite;
   -moz-animation: spin 32s linear infinite;
-  animation: spin 32s linear infinite; 
+  animation: spin 32s linear infinite;
 }
 
 .Animate2 {
   -webkit-animation: spin2 60s linear infinite;
   -moz-animation: spin2 60s linear infinite;
-  animation: spin2 60s linear infinite; 
+  animation: spin2 60s linear infinite;
 }
 
 .Animate3 {
   -webkit-animation: spin 48s linear infinite;
   -moz-animation: spin 48s linear infinite;
-  animation: spin 48s linear infinite; 
+  animation: spin 48s linear infinite;
 }
 
 
@@ -1353,50 +1278,50 @@ html, body,
     body {
         width: 100%;
     }
-    
+
     .footer {
         max-width: 100%;
         padding: 30px;
     }
-    
+
     .photoGrid li a div h3 {
         width: 98%;
         font-size: .9em;
         padding-top: 5px;
         line-height: 1.2em;
     }
-    
+
     .photoGrid li a div {
         height: 40px;
     }
 
-} 
+}
 
 
 /* =Media query for iPad and tablets
 -------------------------------------------------------------- */
 @media handheld, only screen and (max-width: 800px), only screen and (max-device-width: 768px) and (orientation:portrait){
-    
+
     body {
         font-size: 90%;
     }
-    
+
     h1 {
       font-size: 1.7em;
     }
-    
+
     .statement {
         padding: 20px 0;
         margin-bottom: 0;
     }
-    
+
     .statement p {
-        padding: 0; 
+        padding: 0;
         line-height: 28px;
         text-align: center;
         max-width: 100%;
     }
-    
+
     .infobtn {
       display: none;
     }
@@ -1404,7 +1329,7 @@ html, body,
     .infobtn button {
         display: none;
     }
-    
+
     .cbp-spmenu {
         display: none;
     }
@@ -1412,71 +1337,70 @@ html, body,
     img.logobar {
         margin: 40px auto 40px auto;
     }
-    
+
     .row.topbar {
         padding: 0;
     }
-    
+
     .bio {
         padding: 20%;
     }
-    
+
     .row.footer.clear {
         width: 100%;
         margin: 0;
     }
-    
+
     .footerLogo {
         margin: 0 auto;
     }
-    
+
     .footerLogo img {
         width: 150px;
         margin: 0 auto;
     }
-    
+
     .schoolLogos {
         margin: 0 auto;
         padding: 15px;
     }
-    
+
     .footerLogos {
         margin: 40px auto;
         overflow: auto;
     }
-    
+
     .acordian-info {
         display: block;
     }
-    
+
     .previous_grads_video {
         max-width: 94%;
         height: 200px;
     }
-    
+
     .previous_grads {
         max-width: 94%;
         padding: 10px;
     }
-    
+
     img.revlogo {
         width: 100%;
         margin: 0 auto;
         padding: 10px 0 20px 0;
     }
-    
+
     .eventSpace {
         max-width: 94%;
         margin: 0 auto;
     }
-    
+
     .eventData {
         max-width: 94%;
         margin: 0 auto;
     }
 
 }
-
 
 /* =Media query for 480 Screens
 -------------------------------------------------------------- */
@@ -1485,6 +1409,5 @@ html, body,
     .bio {
         padding: 30px;
     }
-    
-} /* END @480px */
 
+} /* END @480px */
