@@ -26,7 +26,7 @@
 		$name = $_GET["name"];
 			if ( $name && file_exists('students/sm17/'.$_GET["name"]) ) {
 				// Include the correct index file
-				include 'students/sp17/'.$name . '/index.php';
+				include 'students/sm17/'.$name . '/index.php';
 				}
 			else if ( $name && file_exists('students/sp17/'.$_GET["name"]) ) {
 				// Include the correct index file
