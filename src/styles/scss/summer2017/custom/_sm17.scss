@@ -237,9 +237,8 @@ hr {
     position: relative;
 
     button {
-        font-family: 'franklin_gothic_fsdemi', Helvetica, sans-serif;
+        font-family: $font-sans-serif;
         background: #ffe746;
-        /*background: #ffda33;*/
         color: white;
         border: none;
         display: block;
@@ -383,7 +382,7 @@ hr {
     position: absolute;
 
     button {
-        font-family: 'franklin_gothic_fsdemi', Helvetica, sans-serif;
+        font-family: $font-sans-serif;
         background: #ffe746;
         color: white;
         border: none;
@@ -795,7 +794,7 @@ flexslider
     border-radius: 10px;
     padding: 12px 10px 10px 10px;
     background: #ffe746 13px 12px;
-    font-family: 'franklin_gothic_fsdemi', Helvetica, sans-serif;
+    font-family: $font-sans-serif;
     transition: all 0.3s ease 0s;
 
     a {
@@ -943,7 +942,7 @@ div {
 p {
 
     &.credits {
-        font-family: 'franklin_gothic_fsdemi', Helvetica, sans-serif;
+        font-family: $font-sans-serif;
         text-transform: uppercase;
         font-size: .6em;
         letter-spacing: .2em;
@@ -982,7 +981,7 @@ p {
 
     p {
         color: white;
-        font-family: 'franklin_gothic_fsdemi', Helvetica, sans-serif;
+        font-family: $font-sans-serif;
         font-weight: 500;
         letter-spacing: 2px;
     }
@@ -1040,7 +1039,7 @@ p {
     position: fixed;
     border: 15px solid #ffe746;
     background: rgb(255,255,255);
-    font-family: 'franklin_gothic_fsdemi', Helvetica, sans-serif;
+    font-family: $font-sans-serif;
     transition: all 2px;
     box-shadow: 0 0 0 white;
 
@@ -1418,7 +1417,7 @@ p {
     }
 
     .row {
-        
+
         &.topbar {
             padding: 0;
         }
