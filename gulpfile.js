@@ -10,6 +10,7 @@ const gulp = require('gulp'),
     sourcemaps = require('gulp-sourcemaps'),
     imagemin = require('gulp-imagemin'),
     svgo = require('gulp-svgo'),
+    autoprefixer = require('gulp-autoprefixer'),
     browserSync = require('browser-sync').create();
 
 const config = {
@@ -57,6 +58,10 @@ gulp.task('sass', function() {
 	return gulp.src(config.sass.src)
     .pipe(sourcemaps.init())
 	.pipe(sass().on('error', sass.logError))
+    .pipe(autoprefixer({
+        browsers: ['last 2 versions'],
+        cascade: false
+    }))
     .pipe(sourcemaps.write())
 	.pipe(gulp.dest('./src/styles/css'))
 	.pipe(browserSync.stream());
@@ -121,24 +126,24 @@ gulp.task('dev', function() {
     gulp.watch(config.scripts.src, ['scripts'])
     gulp.watch(config.sass.src, ['sass'])
     gulp.watch('src/img').on('change', browserSync.reload);
-	gulp.watch(config.templates.src).on('change', browserSync.reload);
+    gulp.watch(config.templates.src).on('change', browserSync.reload);
 });
 
-gulp.task('build', function() {
-
-    gulp.src(config.index.src)
-    .pipe(htmlreplace({
-        'css': {
-            src: 'css-min/styles.min.css',
-            tpl: '<!-- build:css --><link href="%s" rel="stylesheet"><!-- endbuild -->'
-        },
-        'js': {
-            src: 'js-min/scripts.min.js',
-            tpl: '<!-- build:js --><script src="%s"></script><!-- endbuild -->'
-        }
-    }))
-    .pipe(replace('src/img/', 'img-min/'))
-    .pipe(gulp.dest('dist/'))
-
-    runSequence('sass-build', 'scripts', 'image-min')
-});
+// gulp.task('build', function() {
+//
+//     gulp.src(config.index.src)
+//     .pipe(htmlreplace({
+//         'css': {
+//             src: 'css-min/styles.min.css',
+//             tpl: '<!-- build:css --><link href="%s" rel="stylesheet"><!-- endbuild -->'
+//         },
+//         'js': {
+//             src: 'js-min/scripts.min.js',
+//             tpl: '<!-- build:js --><script src="%s"></script><!-- endbuild -->'
+//         }
+//     }))
+//     .pipe(replace('src/img/', 'img-min/'))
+//     .pipe(gulp.dest('dist/'))
+//
+//     runSequence('sass-build', 'scripts', 'image-min')
+// });
