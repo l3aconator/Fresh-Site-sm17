@@ -5,7 +5,7 @@
 	<div class="eventinfo profilescroll">
 		<div class="eventSpace">
 			<a target="_blank" href="http://www.intrinsicventures.com/thedairybuilding/">
-				<img class="revlogo" src="img/images/dairy-building.jpg" alt="Dairy Building interior" width="100%" />
+				<img class="revlogo" src="src/img/images/dairy-building.jpg" alt="Dairy Building interior" width="100%" />
 			</a>
 		</div>
 		<div class="eventData clear">

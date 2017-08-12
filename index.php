@@ -21,7 +21,7 @@
 						<div id="slideshow">
 							<div class="flexslider slider">
 								<ul class="slides">
-									<li alt="project" class="slideimage"><img  src="img/images/Fresh_HeroPage.jpg" alt="slide images" ></li>
+									<li alt="project" class="slideimage"><img  src="src/img/images/Fresh_HeroPage.jpg" alt="slide images" ></li>
 								</ul>
 							</div>
 						</div>

@@ -1,6 +1,6 @@
 <div class="row footer clear">
 	<div class="s2 c2 footerLogo">
-		<a href="/fresh/"><img src="img/images/Fresh_Logo_Medium.png" alt="Fresh Logo" /></a>
+		<a href="/fresh/"><img src="src/img/images/Fresh_Logo_Medium.png" alt="Fresh Logo" /></a>
 	</div>
 	<div class="s1 c5">
     <!-- WILL ONLY BE SHOWN AT 800PX OR LESS -->
@@ -9,7 +9,7 @@
             <div class="panel">
                 <div class="eventSpace">
                     <a target="_blank" href="http://www.intrinsicventures.com/thedairybuilding/">
-                        <img class="revlogo" src="img/images/dairy-building.jpg" alt="Dairy Building interior" width="100%" />
+                        <img class="revlogo" src="src/img/images/dairy-building.jpg" alt="Dairy Building interior" width="100%" />
                     </a>
                 </div>
                 <div class="eventData clear">
@@ -24,7 +24,7 @@
     	<button class="accordion"><h3>Fresh? ▾</h3></button>
         <div class="panel">
             <video class="previous_grads_video" width="400" height="400" autoplay loop style="margin: 20px auto; display: block;">
-            <source src="img/images/fresh-sp17_animation.mp4" type="video/mp4">
+            <source src="src/img/images/fresh-sp17_animation.mp4" type="video/mp4">
             Your browser does not support the video tag.
             </video>
             <div class="previous_grads">
@@ -46,19 +46,19 @@
 
         <div class="footerLogos">
             <a href="http://fogdpsu.tumblr.com/" target="_blank">
-            <img class="schoolLogos fogd" src="img/fogdlogo.png" alt="fogdlogo">
+            <img class="schoolLogos fogd" src="src/img/fogdlogo.png" alt="fogdlogo">
             </a>
 
             <a href="http://psu.gd/" target="_blank">
-            <img class="schoolLogos psugd" src="img/psugdlogo.png" alt="psugdlogo">
+            <img class="schoolLogos psugd" src="src/img/psugdlogo.png" alt="psugdlogo">
             </a>
 
             <a href="http://www.pdx.edu/the-arts/art-design" target="_blank">
-            <img class="schoolLogos ad" src="img/adschoollogo.png" alt="adschoollogo">
+            <img class="schoolLogos ad" src="src/img/adschoollogo.png" alt="adschoollogo">
             </a>
 
             <a href="http://www.pdx.edu" target="_blank">
-            <img class="schoolLogos psu" src="img/psulogo.png" alt="psulogo">
+            <img class="schoolLogos psu" src="src/img/psulogo.png" alt="psulogo">
             </a>
         </div>
 	</div>

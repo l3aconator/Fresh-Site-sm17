@@ -4,7 +4,7 @@
 	</div>
 	<div class="profilescroll">
         <video width="400" height="400" autoplay loop style="margin: 20px auto; display: block;">
-          <source src="img/images/fresh-sp17_animation.mp4" type="video/mp4">
+          <source src="src/img/images/fresh-sp17_animation.mp4" type="video/mp4">
         Your browser does not support the video tag.
         </video>
 		<div class="previous_grads">

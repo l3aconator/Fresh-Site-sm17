@@ -4,8 +4,8 @@
 <meta name="description" content="PSU.GD Graphic Design Graduates" />
 <meta name="keywords" content="PSU.GD Graduate Showcase, FRESH, Graphic Design" />
 
-<link rel="icon" href="img/images/favicons/favicon.ico" type="image/x-icon"/>
-<link rel="shortcut icon" href="img/images/favicons/favicon.ico" type="image/x-icon"/>
+<link rel="icon" href="src/img/images/favicons/favicon.ico" type="image/x-icon"/>
+<link rel="shortcut icon" href="src/img/images/favicons/favicon.ico" type="image/x-icon"/>
 
 <!-- CSS -->
 <!-- build:css --><link href="src/styles/css/load.css" rel="stylesheet"><!-- endbuild -->

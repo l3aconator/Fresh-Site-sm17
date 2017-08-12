@@ -14,7 +14,7 @@
 		<div class="row topbar">
 			<div class="c2">
 
-				<a href="/fresh/"><img class="logobar" src="img/images/Fresh_Logo_Small.png" alt="Fresh" /></a>
+				<a href="/fresh/"><img class="logobar" src="src/img/images/Fresh_Logo_Small.png" alt="Fresh" /></a>
 
 			</div>
 		</div>

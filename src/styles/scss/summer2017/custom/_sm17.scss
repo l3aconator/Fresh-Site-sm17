@@ -36,7 +36,7 @@ canvas {
   width: 100%;
   display: block;
   border: 16px solid #9edcf8;
-  background-image: url("../img/images/fresh_banner.gif");
+  background-image: url("#{$img-path}images/fresh_banner.gif");
   background-size: cover;
   background-repeat: no-repeat;
 }
@@ -288,7 +288,7 @@ hr {
   display: none; }
 
 .revphoto {
-  background-image: url("../img/images/location2.png");
+  background-image: url("#{$img-path}images/location2.png");
   background-size: cover;
   background-position: center center;
   clear: both;
