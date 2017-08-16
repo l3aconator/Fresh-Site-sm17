@@ -22,6 +22,8 @@
                 </li>';
             }
         ?>
+
+        <!--  TODO: SPLIT APART NAMES  -->
     </ul>
     <!--END PHOTO GRID-->
 </div>
