@@ -8,7 +8,9 @@
             foreach($files as $dir) {
                 $dirname = basename($dir);
                 $namefromdir = basename($dir);
-                $name = str_replace('_', ' ', $namefromdir);
+                $nameArray = explode('_', $namefromdir);
+                $firstName = ucwords($nameArray[0]);
+                $lastName = ucwords($nameArray[1]);
                 $nameUppercase = ucwords($name);
                 $photofile = 'students/sm17/'.$dirname.'/portraits/homepage.jpg';
 
@@ -16,14 +18,15 @@
                     <img class="photo" src="'. $photofile .'" alt="'. 'A photo of '.$nameUppercase .'" />
                     <a href="grad.php?name='. $dirname .'">
                         <div>
-                            <h3>'. $nameUppercase .'</h3>
+                            <svg class="sm17--block-svg" width="480" height="480" viewBox="0 0 480 480" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M3 3h474v474H3z" stroke="#000" stroke-width="4" fill="none"/>
+                            </svg>
+                            <h3>'. '<span class="sm17--firstname">'. $firstName .'</span>'.'<span class="sm17--lastname"> '. $lastName .'</span>' .'</h3>
                         </div>
                     </a>
                 </li>';
             }
         ?>
-
-        <!--  TODO: SPLIT APART NAMES  -->
     </ul>
     <!--END PHOTO GRID-->
 </div>

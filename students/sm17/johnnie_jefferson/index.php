@@ -7,7 +7,7 @@
     </div>
 </div>
 <div class="c6 bio">
-    <h1>Johnnie Jefferson</h1>
+    <h1>Johnnie <span>Jefferson</span></h1>
     <p>Short bio goes here</p>
     <img class="artwork" src="students/sm17/kyle_bacon/work_examples/" alt="img">
     <img class="artwork" src="students/sm17/kyle_bacon/work_examples/" alt="img">

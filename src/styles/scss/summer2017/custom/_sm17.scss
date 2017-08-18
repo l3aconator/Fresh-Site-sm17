@@ -69,8 +69,7 @@ h2 {
 }
 
 a {
-    line-height: 0.7em;
-    color: #151515;
+    color: $black;
     text-decoration: none;
 }
 
@@ -89,7 +88,7 @@ p {
 
         &:hover {
             color: $red;
-            border-bottom: 4px solid $black;
+            border-color: $black;
         }
     }
 }
@@ -153,14 +152,11 @@ hr {
         font-size: 20px;
         margin-bottom: 30px;
         text-align: center;
-        // font-weight: bold;
         letter-spacing: .2em;
     }
 }
 
 svg {
-    // width: 800px;
-    margin: 0 auto;
 
     .cls-1 {
         fill: $white;
@@ -168,6 +164,17 @@ svg {
 
     .cls-2 {
         fill: $red;
+    }
+}
+
+.sm17--svg__sub-page {
+
+    svg {
+        height: 40px !important;
+
+        .cls-1 {
+            fill: $black;
+        }
     }
 }
 
@@ -288,7 +295,7 @@ svg {
 .infobtn {
     top: 50%;
     width: 38px;
-    right: -30px;
+    right: -10px;
     float: right;
     z-index: 1004;
     position: relative;
@@ -300,7 +307,7 @@ svg {
         color: white;
         border: none;
         display: block;
-        width: 120px;
+        width: 160px;
         height: 74px;
         cursor: pointer;
         font-size: 14px;
@@ -436,7 +443,7 @@ svg {
 
 .gradbtn {
     z-index: 1004;
-    left: -112px;
+    left: -132px;
     top: 50%;
     width: 38px;
     float: left;
@@ -449,7 +456,7 @@ svg {
         color: white;
         border: none;
         display: block;
-        width: 120px;
+        width: 160px;
         height: 74px;
         cursor: pointer;
         font-size: 14px;
@@ -689,12 +696,12 @@ flexslider
             display: block;
             position: absolute;
             transition: all 10ms;
-            padding: 30px;
 
             &:before {
                 content: '';
                 display: block;
-                border: 4px solid transparent;
+                background-color: $black;
+                opacity: 0;
                 width: 100%;
                 height: 100%;
                 transition: all 200ms ease-in;
@@ -707,33 +714,80 @@ flexslider
                     opacity: 1;
                     cursor: pointer;
                     transition: all .3s;
+
+                    .sm17--block-svg {
+
+                        path {
+                            animation: dash 500ms ease forwards;
+                        }
+                    }
                 }
 
                 &:before {
-                    border-color: $white;
+                    opacity: .3;
                 }
             }
 
             div {
                 width: 100%;
-                height: 60px;
+                height: 100%;
                 right: 0;
                 opacity: 0;
                 top: 50%;
                 position: absolute;
                 display: table-cell;
                 background: transparent;
-                transform: rotate(-90deg)
-                            translateY(-50%);
+                transform: translateY(-50%);
                 text-align: center;
                 transition: all .3s;
 
+                .sm17--block-svg {
+                    position: absolute;
+                    left: 0;
+                    padding: 30px;
+
+                    path {
+                        stroke: $white;
+                        stroke-dasharray: 1920;
+                        stroke-dashoffset: 1920;
+                    }
+
+                    @keyframes dash {
+                        to {
+                            stroke-dashoffset: 0;
+                        }
+                    }
+                }
+
                 h3 {
-                    color: $red;
+                    width: 100%;
+                    height: 100%;
+                    color: $white;
+                    font-weight: bold;
                     text-transform: uppercase;
-                    font-size: 1.6em;
-                    letter-spacing: .1em;
-                    padding-top: 10px;
+                    font-size: 1.1em;
+                    letter-spacing: .25em;
+                    position: relative;
+
+                    .sm17--firstname,
+                    .sm17--lastname {
+                        position: absolute;
+                    }
+
+                    .sm17--firstname {
+                        bottom: 0;
+                        left: 50%;
+                        transform: translateX(-50%);
+                        padding-bottom: 53px;
+                    }
+
+                    .sm17--lastname {
+                        top: 50%;
+                        right: -3px;
+                        width: 110px;
+                        transform: rotate(-90deg)
+                                    translateY(-50%);
+                    }
                 }
             }
         }
@@ -743,6 +797,15 @@ flexslider
         width: 100% !important;
         transition: all 1s ease;
         filter: grayscale(100%) !important;
+    }
+}
+
+@media (max-width: 768px) {
+    .photoGrid {
+
+        li {
+            width: 100%;
+        }
     }
 }
 
@@ -799,16 +862,17 @@ flexslider
     color: #1A1A1A;
 
     h1 {
-        color: #244289;
+        color: $red;
         padding-bottom: 20px;
-        font-size: 2.5em;
-        font-weight: 700;
+        font-size: 3.5em;
+        line-height: 1.2em;
+        font-family: $font-serif;
+        text-transform: uppercase;
 
         span {
-            color: #231f20;
-            font-family: 'franklin_gothic_fsbook', Helvetica, sans-serif;
+            color: $black;
             display: block;
-            font-weight: 100;
+            font-style: italic;
         }
     }
 
@@ -822,8 +886,9 @@ flexslider
     }
 
     p {
-        color: #1A1A1A;
-        line-height: 1.5em;
+        color: $black;
+        font-size: 18px;
+        line-height: 1.75em;
         text-shadow: 0 0 10px white;
     }
 }
@@ -854,31 +919,38 @@ flexslider
     img {
         width: 100%;
         height: 100%;
-        border-radius: 20px;
+        filter: grayscale(100%);
     }
 }
 
 .website_btn {
-    height: 50px;
     width: 300px;
     display: block;
-    margin: 1em auto;
+    margin: 2em auto;
     text-align: center;
-    border-radius: 10px;
-    padding: 12px 10px 10px 10px;
-    background: $red 13px 12px;
+    padding: 25px 15px;
+    border: 6px solid $black;
     font-family: $font-sans-serif;
-    transition: all 0.3s ease 0s;
+    cursor: pointer;
+    transition: all 200ms ease 0s;
 
     a {
-        color: #244289;
-        line-height: 1.75em;
+        color: $black;
+        line-height: 0em;
+        height: 100%;
+        width: 100%;
         text-decoration: none;
         letter-spacing: .2em;
+        font-weight: bold;
+        display: block;
     }
 
     &:hover {
-        background: #e7e7e8;
+        background: $black;
+
+        a {
+            color: $white;
+        }
     }
 }
 
@@ -914,10 +986,10 @@ p {
 
     p {
         font-size: 14px;
-        color: $white;;
+        color: $white;
 
         a {
-            color: blue;
+            // color: blue;
             text-decoration: none;
 
             &:hover,
@@ -1411,7 +1483,7 @@ p {
 
 /* =Media query for 960 Screens - sets nested grids to 100%
 -------------------------------------------------------------- */
-@media only screen and (max-width:960px) {
+@media only screen and (max-width: 960px) {
 
     body {
         width: 100%;
@@ -1425,6 +1497,7 @@ p {
     .photoGrid {
 
         li {
+
             a {
                 div {
                     height: 40px;
