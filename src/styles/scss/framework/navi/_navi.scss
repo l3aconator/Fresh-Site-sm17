@@ -82,16 +82,6 @@ html, body,
 	background: #91D4D9;
 }
 
-
-.cbp-spmenu a:hover {
-	background: #55e0ad;
-}
-
-.cbp-spmenu a:active {
-	background: gray;
-	color: #55e0ad;
-}
-
 /* Orientation-dependent styles for the content of the menu */
 
 .cbp-spmenu-vertical {
@@ -194,27 +184,19 @@ html, body,
 /*PHONE HORIZONTAL*/
 @media screen and (max-width: 660px) {
 	#fbsection1{
-		border: 8px solid #55e0ad;
 		border-bottom: 0px;
 	}
 
 	#fbsection2{
-		border: 8px solid #55e0ad;
 		border-bottom: 0px;
 	}
 
 	#fbsection3{
-		border: 8px solid #55e0ad;
 		border-bottom: 0px;
 	}
 
 	#fbsection4{
-		border: 8px solid #55e0ad;
 		border-bottom: 0px;
-	}
-
-	#fbsection5{
-		border: 8px solid #55e0ad;
 	}
 }
 

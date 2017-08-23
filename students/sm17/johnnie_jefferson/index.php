@@ -1,3 +1,4 @@
+<!-- NEED -->
 <div class="s2 c2 bioleft">
     <div class="bio_pic">
         <img src="students/sp17/aaron_osborn/portraits/aaron_osborn_01.JPG" alt="Aaron Osborn" onmouseover="this.src='students/sp17/aaron_osborn/portraits/aaron_osborn_02.JPG';" onmouseout="this.src='students/sp17/aaron_osborn/portraits/aaron_osborn_01.JPG';">
@@ -9,10 +10,11 @@
 <div class="c6 bio">
     <h1>Johnnie <span>Jefferson</span></h1>
     <p>Short bio goes here</p>
-    <img class="artwork" src="students/sm17/kyle_bacon/work_examples/" alt="img">
-    <img class="artwork" src="students/sm17/kyle_bacon/work_examples/" alt="img">
-    <img class="artwork" src="students/sm17/kyle_bacon/work_examples/" alt="img">
-    <img class="artwork" src="students/sm17/kyle_bacon/work_examples/" alt="img">
+    <img class="artwork" src="students/sm17/johnnie_jefferson/image2.jpg" alt="img">
+    <img class="artwork" src="students/sm17/johnnie_jefferson/image3.jpg" alt="img">
+    <img class="artwork" src="students/sm17/johnnie_jefferson/image4.jpg" alt="img">
+    <img class="artwork" src="students/sm17/johnnie_jefferson/image8.jpg" alt="img">
+    <img class="artwork" src="students/sm17/johnnie_jefferson/image15.jpg" alt="img">
 </div>
 <!--FOOTER -->
 <?php include 'footer.php'; ?>

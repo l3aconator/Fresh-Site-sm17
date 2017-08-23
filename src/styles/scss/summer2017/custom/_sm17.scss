@@ -73,6 +73,10 @@ a {
     text-decoration: none;
 }
 
+strong {
+    font-weight: bold;
+}
+
 p {
     font-family: $font-sans-serif;
     font-size: 1.1em;
@@ -652,7 +656,7 @@ flexslider
 /* PHOTO GRID STYLES */
 .thumbnailGrid {
     position: relative;
-    background-color: #244289;
+    background-color: $gray;
 }
 
 .photoGrid {
@@ -745,6 +749,8 @@ flexslider
                     position: absolute;
                     left: 0;
                     padding: 30px;
+                    width: 100%;
+                    height: 100%;
 
                     path {
                         stroke: $white;
@@ -808,7 +814,6 @@ flexslider
         }
     }
 }
-
 
 .color {
     filter: grayscale(0) !important;
@@ -962,7 +967,7 @@ p {
         line-height: 1.8em;
         padding-top: 35px;
         text-align: left;
-        font-family: 'franklin_gothic_fsbook_italic', Helvetica, sans-serif;
+        font-family: $font-sans-serif;
     }
 }
 
@@ -1029,6 +1034,13 @@ p {
             border-color: $white;
         }
     }
+
+    .eventData {
+
+        p {
+            color: $black;
+        }
+    }
 }
 
 .footerBlurb {
@@ -1044,6 +1056,7 @@ p {
     svg {
         height: 60px;
         margin-top: 80px;
+        max-width: 100%;
     }
 
     img {
@@ -1064,7 +1077,7 @@ button {
 
     &.accordion {
         background-color: $red;
-        color: #244289;
+        color: $white;
         cursor: pointer;
         padding: 18px;
         width: 100%;
@@ -1106,6 +1119,7 @@ p {
     margin-right: 5%;
     margin-top: 40px;
     margin-bottom: 20px;
+    max-width: 80px;
 
     a {
 
@@ -1146,7 +1160,8 @@ p {
 .fogd,
 .psugd,
 .ad,
-.psu  {
+.psu,
+.halfcourt  {
     transition: all 0.14s ease 0s;
 
     &:hover {
@@ -1500,7 +1515,6 @@ p {
 
             a {
                 div {
-                    height: 40px;
 
                     h3 {
                         width: 98%;
@@ -1599,6 +1613,8 @@ p {
     .footerLogos {
         margin: 40px auto;
         overflow: auto;
+        display: flex;
+        align-items: center;
     }
 
     .acordian-info {
@@ -1635,5 +1651,27 @@ p {
         padding: 30px;
     }
 
+    // .photoGrid {
+    //
+    //     li {
+    //
+    //         a {
+    //
+    //             div {
+    //
+    //                 .sm17--block-svg {
+    //                     transform: translateY(-46%);
+    //                 }
+    //             }
+    //         }
+    //     }
+    // }
+
+    .sm17--hero {
+        align-items: flex-start;
+        padding-top: 20%;
+        padding-bottom: 20%;
+        height: auto !important;
+    }
 }
 /* END @480px */

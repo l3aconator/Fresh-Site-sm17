@@ -48,8 +48,7 @@
 					<!--STATEMENT-->
 					<div class="row statement">
 						<div class="s3 c6" style="text-align:center;">
-							<p>The <a target="_blank" href="http://psu.gd/">The Portland State Graphic Design</a> program invites you to meet 53 FRESH graduates at <a href="http://www.intrinsicventures.com/thedairybuilding/" target="_blank">the Dairy Building</a> on Wednesday, June 14th from 5:30&ndash;8:30 pm. <b> FRESH requires registration. If you are interested in working with one of our grads, please contact  <a href="mailto:jgs2@pdx.edu?Subject=Fresh%20Invites" target="_top">jgs2@pdx.edu</a> for information.</b>
-							</p>
+							<p>The <a target="_blank" href="http://psu.gd/">The Portland State Graphic Design</a> program invites you to meet 22 FRESH graduates at <a target="_blank" href="https://www.halfcourtstudio.com/">Half Court Studio</a> &amp; <a target="_blank" href="https://www.outletpdx.com/">Outlet</a> on Wednesday, August 30th from 5:30&ndash;9:00 pm. FRESH requires registration. If you are interested in working with one of our grads, please contact ethanallensmith (at) pdx.edu for information.</p>
 						</div>
 					</div>
 					<!--end STATEMENT-->
