@@ -75,16 +75,16 @@ gulp.task('sass:watch', ['minify-css'], function () {
 	gulp.watch(config.sass.src, ['sass']);
 });
 
-gulp.task('scripts', function() {
-    return gulp.src(config.scripts.src)
-    .pipe(sourcemaps.init())
-    .pipe(concat('scripts.js'))
-    .pipe(rename('scripts.min.js'))
-    .pipe(uglify())
-    .pipe(sourcemaps.write())
-    .pipe(gulp.dest(config.scripts.dest))
-    .pipe(browserSync.stream());
-});
+// gulp.task('scripts', function() {
+//     return gulp.src(config.scripts.src)
+//     .pipe(sourcemaps.init())
+//     .pipe(concat('scripts.js'))
+//     .pipe(rename('scripts.min.js'))
+//     .pipe(uglify())
+//     .pipe(sourcemaps.write())
+//     .pipe(gulp.dest(config.scripts.dest))
+//     .pipe(browserSync.stream());
+// });
 
 gulp.task('devHeaderReplace', function() {
     return gulp.src('./header.php')
@@ -121,7 +121,7 @@ gulp.task('dev', function() {
         proxy: "http://fresh-site.dev:8888/"
     })
 
-    runSequence('sass', 'scripts', 'devHeaderReplace', 'devScriptsReplace', 'devImagesReplace');
+    runSequence('sass', 'devHeaderReplace', 'devScriptsReplace', 'devImagesReplace');
 
     gulp.watch(config.scripts.src, ['scripts'])
     gulp.watch(config.sass.src, ['sass'])

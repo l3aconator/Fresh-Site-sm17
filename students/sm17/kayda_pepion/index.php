@@ -1,7 +1,7 @@
 <!-- NEED -->
 <div class="s2 c2 bioleft">
     <div class="bio_pic">
-        <img src="students/sp17/aaron_osborn/portraits/aaron_osborn_01.JPG" alt="Aaron Osborn" onmouseover="this.src='students/sp17/aaron_osborn/portraits/aaron_osborn_02.JPG';" onmouseout="this.src='students/sp17/aaron_osborn/portraits/aaron_osborn_01.JPG';">
+        <img src="students/sm17/kayda_pepion/portraits/kayda.jpg" alt="Kayda Pepion" />
     </div>
     <div class="website_btn">
         <a target="_blank" href="http://pepiondesigns.com">VIEW WEBSITE</a>
