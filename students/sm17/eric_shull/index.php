@@ -1,4 +1,3 @@
-<!-- NEED -->
 <div class="s2 c2 bioleft">
     <div class="bio_pic">
         <img src="students/sm17/eric_shull/portraits/eric.jpg" alt="Eric Shull" />

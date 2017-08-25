@@ -1,4 +1,3 @@
-<!-- NEED -->
 <div class="s2 c2 bioleft">
     <div class="bio_pic">
         <img src="students/sm17/alice_sellers-subocz/portraits/alice.jpg" alt="Alice Sellers-Subocz" />
@@ -13,10 +12,11 @@
     <p><strong>If you were to run into me at NY Fashion Week, I would most likely be</strong>: <br />By the food. Is there food there?</p>
     <p><strong>My favorite article of clothing is</strong>: <br />Soft, drapey things that disguise how much food I just put in my stomach.</p>
     <p><strong>The song playing as I strut down the runway would be</strong>: <br />M.I.A. - Bad Girls</p>
-    <img class="artwork" src="students/sm17/kyle_bacon/work_examples/" alt="img">
-    <img class="artwork" src="students/sm17/kyle_bacon/work_examples/" alt="img">
-    <img class="artwork" src="students/sm17/kyle_bacon/work_examples/" alt="img">
-    <img class="artwork" src="students/sm17/kyle_bacon/work_examples/" alt="img">
+    <img class="artwork" src="students/sm17/alice_sellers-subocz/image6.jpg" alt="img">
+    <img class="artwork" src="students/sm17/alice_sellers-subocz/image7.png" alt="img">
+    <img class="artwork" src="students/sm17/alice_sellers-subocz/image21.png" alt="img">
+    <img class="artwork" src="students/sm17/alice_sellers-subocz/image28.png" alt="img">
+    <img class="artwork" src="students/sm17/alice_sellers-subocz/image59.png" alt="img">
 </div>
 <!--FOOTER -->
 <?php include 'footer.php'; ?>

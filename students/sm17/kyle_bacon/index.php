@@ -1,4 +1,3 @@
-<!-- NEED -->
 <div class="s2 c2 bioleft">
     <div class="bio_pic">
         <img src="students/sm17/kyle_bacon/portraits/kyle.jpg" alt="Kyle Bacon" />
@@ -13,10 +12,11 @@
     <p><strong>If you were to run into me at NY Fashion Week, I would most likely be</strong>: <br />Performing the “Bacon Dougie” in the Times Square or eating some dope pizza. Maybe even finding some nerdy stuff to do, you know, not NY Fashion Week oriented.</p>
     <p><strong>My favorite article of clothing is</strong>: <br />An oversized hoodie to hide my developer and “I just graduated college” belly.</p>
     <p><strong>The song playing as I strut down the runway would be</strong>: <br />“Pony” — Ginuwine</p>
-    <img class="artwork" src="students/sm17/kyle_bacon/work_examples/" alt="img">
-    <img class="artwork" src="students/sm17/kyle_bacon/work_examples/" alt="img">
-    <img class="artwork" src="students/sm17/kyle_bacon/work_examples/" alt="img">
-    <img class="artwork" src="students/sm17/kyle_bacon/work_examples/" alt="img">
+    <img class="artwork" src="students/sm17/kyle_bacon/image1.jpg" alt="img">
+    <img class="artwork" src="students/sm17/kyle_bacon/welcome-home-app.jpg" alt="img">
+    <img class="artwork" src="students/sm17/kyle_bacon/redflags.gif" alt="img">
+    <img class="artwork" src="students/sm17/kyle_bacon/DSC_0283.jpg" alt="img">
+    <img class="artwork" src="students/sm17/kyle_bacon/DSC_0287.jpg" alt="img">
 </div>
 <!--FOOTER -->
 <?php include 'footer.php'; ?>
