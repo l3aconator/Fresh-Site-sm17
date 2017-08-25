@@ -1,7 +1,7 @@
 <!-- NEED -->
 <div class="s2 c2 bioleft">
     <div class="bio_pic">
-        <img src="students/sp17/aaron_osborn/portraits/aaron_osborn_01.JPG" alt="Aaron Osborn" onmouseover="this.src='students/sp17/aaron_osborn/portraits/aaron_osborn_02.JPG';" onmouseout="this.src='students/sp17/aaron_osborn/portraits/aaron_osborn_01.JPG';">
+        <img src="students/sm17/lydia_wojack-west/portraits/lydia.jpg" alt="Lydia Wojack-West" />
     </div>
     <div class="website_btn">
         <a target="_blank" href="http://lydiawojackwest.com">VIEW WEBSITE</a>
@@ -10,9 +10,9 @@
 <div class="c6 bio">
     <h1>Lydia <span>Wojack-West</span></h1>
     <p>I am a designer with a firm belief that humor and design can bring people together. I try to incorporate humor into my work through satire, but I also enjoy the light-hearted side of things. Part of what I love about my work is that I can make a visual statement about something I am passionate about, while making jokes about the absurdity of the situation. It’s an amazing feeling to be able to connect to others through laughter and shared experiences</p>
-    <p><strong>(Q1) If you were to run into me at NY Fashion Week, I would most likely be</strong>: <br />At Nintendo World since I would be in New York.</p>
-    <p><strong>(Q2) My favorite article of clothing is</strong>: <br />One of many cozy knit sweaters!</p>
-    <p><strong>(Q3) The song playing as I strut down the runway would be</strong>: <br />Janelle Monae - “Electric Lady”</p>
+    <p><strong>If you were to run into me at NY Fashion Week, I would most likely be</strong>: <br />At Nintendo World since I would be in New York.</p>
+    <p><strong>My favorite article of clothing is</strong>: <br />One of many cozy knit sweaters!</p>
+    <p><strong>The song playing as I strut down the runway would be</strong>: <br />Janelle Monae - “Electric Lady”</p>
     <img class="artwork" src="students/sm17/kyle_bacon/work_examples/" alt="img">
     <img class="artwork" src="students/sm17/kyle_bacon/work_examples/" alt="img">
     <img class="artwork" src="students/sm17/kyle_bacon/work_examples/" alt="img">

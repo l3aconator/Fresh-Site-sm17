@@ -10,9 +10,9 @@
 <div class="c6 bio">
     <h1>Jordynn <span>Alexander</span></h1>
     <p>I hope to listen, learn and bring people of all ages together to share and celebrate our different stories through the passion of art & design.</p>
-    <p><strong>(Q1) If you were to run into me at NY Fashion Week, I would most likely be</strong>: <br />Eyeing footwork.</p>
-    <p><strong>(Q2) My favorite article of clothing is</strong>: <br />The Life of Pablo tour long sleeve.</p>
-    <p><strong>(Q3) The song playing as I strut down the runway would be</strong>: <br />Kendrick Lamar, “Bitch Don’t Kill My Vibe”</p>
+    <p><strong>If you were to run into me at NY Fashion Week, I would most likely be</strong>: <br />Eyeing footwork.</p>
+    <p><strong>My favorite article of clothing is</strong>: <br />The Life of Pablo tour long sleeve.</p>
+    <p><strong>The song playing as I strut down the runway would be</strong>: <br />Kendrick Lamar, “Bitch Don’t Kill My Vibe”</p>
     <img class="artwork" src="students/sm17/jordynn_alexander/image7.jpg" alt="img">
     <img class="artwork" src="students/sm17/jordynn_alexander/image9.jpg" alt="img">
     <img class="artwork" src="students/sm17/jordynn_alexander/image21.png" alt="img">
