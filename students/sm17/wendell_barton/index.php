@@ -13,10 +13,10 @@
     <p><strong>If you were to run into me at NY Fashion Week, I would most likely be</strong>: <br />Showing off my new F/W clothing line</p>
     <p><strong>My favorite article of clothing is</strong>: <br />Black Levi’s denim and a white shirt combo</p>
     <p><strong>The song playing as I strut down the runway would be</strong>: <br />Tonight - Black Atlass</p>
-    <img class="artwork" src="students/sm17/kyle_bacon/work_examples/" alt="img">
-    <img class="artwork" src="students/sm17/kyle_bacon/work_examples/" alt="img">
-    <img class="artwork" src="students/sm17/kyle_bacon/work_examples/" alt="img">
-    <img class="artwork" src="students/sm17/kyle_bacon/work_examples/" alt="img">
+    <!-- <img class="artwork" src="students/sm17/wendell_barton/" alt="img"> -->
+    <!-- <img class="artwork" src="students/sm17/wendell_barton/" alt="img"> -->
+    <!-- <img class="artwork" src="students/sm17/wendell_barton/" alt="img"> -->
+    <!-- <img class="artwork" src="students/sm17/wendell_barton/" alt="img"> -->
 </div>
 <!--FOOTER -->
 <?php include 'footer.php'; ?>

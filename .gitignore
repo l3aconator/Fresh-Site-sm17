@@ -5,8 +5,6 @@
 node_modules/*
 dist/*
 !dist/.*
-src/styles/css/*
-!src/styles/css/.*
 
 # OS Generated
 .DS_Store*

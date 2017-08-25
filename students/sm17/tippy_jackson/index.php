@@ -13,10 +13,10 @@
     <p><strong>If you were to run into me at NY Fashion Week, I would most likely be</strong>: <br />I would sneak backstage and feel all of the fabrics I could get my hands on, in the least creepy way possible.</p>
     <p><strong>My favorite article of clothing is</strong>: <br />Anything that allows me to explore a full range of motion. Restrictive clothing will not be tolerated.</p>
     <p><strong>The song playing as I strut down the runway would be</strong>: <br />“Renegade” by Styx. Specifically, the guitar solo. Over and over and over again.</p>
-    <img class="artwork" src="students/sm17/kyle_bacon/work_examples/" alt="img">
-    <img class="artwork" src="students/sm17/kyle_bacon/work_examples/" alt="img">
-    <img class="artwork" src="students/sm17/kyle_bacon/work_examples/" alt="img">
-    <img class="artwork" src="students/sm17/kyle_bacon/work_examples/" alt="img">
+    <!-- <img class="artwork" src="students/sm17/tippy_jackson/" alt="img"> -->
+    <!-- <img class="artwork" src="students/sm17/tippy_jackson/" alt="img"> -->
+    <!-- <img class="artwork" src="students/sm17/tippy_jackson/" alt="img"> -->
+    <!-- <img class="artwork" src="students/sm17/tippy_jackson/" alt="img"> -->
 </div>
 <!--FOOTER -->
 <?php include 'footer.php'; ?>
